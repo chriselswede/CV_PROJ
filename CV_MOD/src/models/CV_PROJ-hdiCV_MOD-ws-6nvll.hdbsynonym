@@ -1,0 +1,8 @@
+{
+  "com.sap::QUALITY": {
+    "target": {
+      "object": "QUALITY",
+      "schema": "SAPHANADB"
+    }
+  }
+}

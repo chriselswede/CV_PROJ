@@ -1,0 +1,14 @@
+{
+    "role":{
+       "name":"ROLE_SELECT_QUALITY",
+       "object_privileges":[
+          {
+             "name":"CV_QUALITY",
+             "type":"VIEW",
+             "privileges":[
+                "SELECT"
+             ]
+          }
+       ]
+    }
+ }
