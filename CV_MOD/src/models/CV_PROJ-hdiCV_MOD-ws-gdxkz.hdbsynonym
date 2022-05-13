@@ -1,0 +1,20 @@
+{
+  "com.sap::SalesOrder": {
+    "target": {
+      "object": "SalesOrder",
+      "schema": "SAPHANADB"
+    }
+  },
+  "com.sap::BusinessPartner": {
+    "target": {
+      "object": "BusinessPartner",
+      "schema": "SAPHANADB"
+    }
+  },
+  "com.sap::BusinessPartnerContacts": {
+    "target": {
+      "object": "BusinessPartnerContacts",
+      "schema": "SAPHANADB"
+    }
+  }
+}
