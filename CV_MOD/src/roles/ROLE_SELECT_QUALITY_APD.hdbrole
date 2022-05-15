@@ -1,0 +1,21 @@
+{
+    "role":{
+        "name":"ROLE_SELECT_QUALITY_APD",
+        "object_privileges":[
+            {
+                "name":"CV_QUALITY",
+                "type":"VIEW",
+                "privileges":[
+                    "SELECT"
+                ]
+            }
+        ],
+        "schema_analytic_privileges": [
+            {
+                "privileges": ["APD_QUALITY"]
+            }
+        ]
+    }
+}
+    
+    
