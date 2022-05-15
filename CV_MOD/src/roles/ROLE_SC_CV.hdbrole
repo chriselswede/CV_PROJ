@@ -5,7 +5,7 @@
 			{
 				"name": "SALES_CUSTOMER",
 				"type": "VIEW",
-				"privileges": ["SELECT"]
+				"privileges": ["SELECT", "UNMASKED"]
 			}
 		]
 	}

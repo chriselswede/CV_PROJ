@@ -1,0 +1,27 @@
+FUNCTION "CV_PROJ.CV_MOD::AGE_HIERARCHY"(value integer, level integer)
+RETURNS outValue nvarchar(255) AS
+BEGIN
+    IF value < 10 THEN
+        outValue := '0-9';
+    ELSEIF value < 20 THEN
+        outValue := '10-19';
+    ELSEIF value < 30 THEN
+        outValue := '20-29';
+    ELSEIF value < 40 THEN
+        outValue := '30-39';
+    ELSEIF value < 50 THEN
+        outValue := '40-49';
+    ELSEIF value < 60 THEN
+        outValue := '50-59';
+    ELSEIF value < 70 THEN
+        outValue := '60-69';
+    ELSEIF value < 80 THEN
+        outValue := '70-79';
+    ELSEIF value < 90 THEN
+        outValue := '80-89';
+    ELSEIF value < 100 THEN
+        outValue := '90-99';
+    ELSE
+        outValue := '>100';
+    END IF;
+END;

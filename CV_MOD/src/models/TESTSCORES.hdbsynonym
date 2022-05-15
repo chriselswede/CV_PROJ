@@ -1,0 +1,8 @@
+{
+    "SAPHANADB::TESTSCORES": {
+        "target": {
+            "object": "TESTSCORES",
+            "schema": "SAPHANADB"
+        }
+    }
+}
