@@ -1,0 +1,21 @@
+{
+    "GRANTOR_SERVICE": {
+       "object_owner": {
+          "schema_privileges": [
+             {
+                "reference": "SAPHANADB",
+                "privileges_with_grant_option":[ "SELECT", "SELECT METADATA" ]
+             }
+          ]
+       },
+       "application_user": {
+          "schema_privileges": [
+             {
+                "reference": "SAPHANADB",
+                "privileges": [ "SELECT", "SELECT METADATA" ]
+             }
+          ]
+       }
+    }
+ }
+ 
