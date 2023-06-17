@@ -220,25 +220,25 @@
 <layout>
   <shapes>
     <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
-      <upperLeftCorner x="328" y="112"/>
+      <upperLeftCorner x="328.6900820831794" y="112"/>
     
       <rectangleSize width="160"/>
     </shape>
     <shape expanded="true" modelObjectName="Proj_SO" modelObjectNameSpace="CalculationView">
-      <upperLeftCorner x="395" y="356"/>
+      <upperLeftCorner x="395.83468516943316" y="376.9999988079071"/>
       <rectangleSize height="30" width="160"/>
     </shape>
     <shape expanded="true" modelObjectName="Proj_BP" modelObjectNameSpace="CalculationView">
-      <upperLeftCorner x="302" y="496"/>
+      <upperLeftCorner x="92" y="536.9999976158142"/>
       <rectangleSize height="30" width="160"/>
     </shape>
     <shape expanded="true" modelObjectName="Proj_BPC" modelObjectNameSpace="CalculationView">
-      <upperLeftCorner x="92" y="496"/>
+      <upperLeftCorner x="302" y="536.9999976158142"/>
       <rectangleSize height="30" width="160"/>
     </shape>
   
     <shape expanded="true" modelObjectName="J_BP_BPC" modelObjectNameSpace="CalculationView">
-      <upperLeftCorner x="118" y="356"/>
+      <upperLeftCorner x="118.66666666666666" y="376.9999988079071"/>
       <rectangleSize height="30" width="160"/>
     </shape>
     <shape modelObjectName="Proj_BP" modelObjectNameSpace="J_BP_BPC" modelObjectType="JoinNodeInput">
@@ -251,7 +251,7 @@
     </shape>
   
     <shape expanded="true" modelObjectName="J_SO_BP" modelObjectNameSpace="CalculationView">
-      <upperLeftCorner x="328" y="217"/>
+      <upperLeftCorner x="328.6900820831794" y="217"/>
       <rectangleSize height="30" width="160"/>
     </shape>
     <shape modelObjectName="Proj_SO" modelObjectNameSpace="J_SO_BP" modelObjectType="JoinNodeInput">
