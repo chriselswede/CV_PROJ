@@ -229,7 +229,7 @@
       <rectangleSize height="30" width="160"/>
     </shape>
     <shape expanded="true" modelObjectName="Proj_BP" modelObjectNameSpace="CalculationView">
-      <upperLeftCorner x="92" y="536.9999976158142"/>
+      <upperLeftCorner x="-53" y="564.9999976158142"/>
       <rectangleSize height="30" width="160"/>
     </shape>
     <shape expanded="true" modelObjectName="Proj_BPC" modelObjectNameSpace="CalculationView">
