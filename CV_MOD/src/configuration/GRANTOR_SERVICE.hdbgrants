@@ -1,21 +1,60 @@
 {
-    "GRANTOR_SERVICE": {
-       "object_owner": {
-          "schema_privileges": [
-             {
-                "schema": "SAPHANADB",
-                "privileges_with_grant_option":[ "SELECT", "SELECT METADATA" ]
-             }
-          ]
-       },
-       "application_user": {
-          "schema_privileges": [
-             {
-                "schema": "SAPHANADB",
-                "privileges": [ "SELECT", "SELECT METADATA" ]
-             }
-          ]
-       }
-    }
- }
- 
+   "GRANTOR_SERVICE": {
+      "object_owner": {
+         "schema_privileges": [
+            {
+               "schema": "SAPHANADB",
+               "privileges_with_grant_option":[ "SELECT", "SELECT METADATA" ]
+            },
+            {
+               "schema": "ASCHEMA",
+               "privileges_with_grant_option":[ "SELECT", "SELECT METADATA", "INSERT", "UPDATE", "DROP", "DELETE", "INDEX", "REFERENCES", "TRIGGER", "EXECUTE" ]
+            }
+         ],
+         "global_object_privileges" : [
+           {
+              "name" : "CHT_SOURCE",
+              "type" : "REMOTE SOURCE",
+              "privileges" : [ "CREATE VIRTUAL TABLE", "CREATE VIRTUAL PROCEDURE" ]
+           },
+           {
+              "name" : "CHT_SEC_DAP",
+              "type" : "REMOTE SOURCE",
+              "privileges" : [ "CREATE VIRTUAL TABLE", "CREATE VIRTUAL PROCEDURE" ]
+           }
+         ]      
+      },
+      "application_user": {
+         "schema_privileges": [
+            {
+               "schema": "SAPHANADB",
+               "privileges": [ "SELECT", "SELECT METADATA" ]
+            },
+            {
+               "schema": "ASCHEMA",
+               "privileges_with_grant_option":[ "SELECT", "SELECT METADATA", "INSERT", "UPDATE", "DROP", "DELETE", "INDEX", "REFERENCES", "TRIGGER", "EXECUTE" ]
+            }
+         ],
+         "global_object_privileges" : [
+           {
+              "name" : "CHT_SOURCE",
+              "type" : "REMOTE SOURCE",
+              "privileges" : [ "CREATE VIRTUAL TABLE", "CREATE VIRTUAL PROCEDURE" ]
+           },
+           {
+              "name" : "CHT_SEC_DAP",
+              "type" : "REMOTE SOURCE",
+              "privileges" : [ "CREATE VIRTUAL TABLE", "CREATE VIRTUAL PROCEDURE" ]
+           }
+         ]      
+      }
+   },
+   "hdi_T_MOD": {
+      "object_owner": {
+         "container_roles": [ "CONTAINER_SELECT_GRANT#" ]
+      },
+      "application_user": {
+         "container_roles": [ "CONTAINER_SELECT" ]
+      }
+   }
+}

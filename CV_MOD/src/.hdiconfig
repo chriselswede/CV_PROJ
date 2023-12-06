@@ -138,6 +138,9 @@
 		},
 		"hdbschedulerjob": {
 			"plugin_name": "com.sap.hana.di.schedulerjob"
-		}
+		},
+		"hdbremotetablereplica": {
+            "plugin_name": "com.sap.hana.di.remotetablereplica"
+        }
 	}
 }
