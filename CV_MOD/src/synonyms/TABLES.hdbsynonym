@@ -1,0 +1,14 @@
+{
+  "ASCHEMA::T_TARGET": {
+    "target": {
+      "object": "T_TARGET",
+      "schema": "ASCHEMA"
+    }
+  },
+  "ASCHEMA::T_SAMPLE": {
+    "target": {
+      "object": "T_SAMPLE",
+      "schema": "ASCHEMA"
+    }
+  }
+}

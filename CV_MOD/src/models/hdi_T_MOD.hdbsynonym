@@ -1,0 +1,8 @@
+{
+  "com.sap::T1": {
+    "target": {
+      "object": "T1",
+      "schema": "T_MOD"
+    }
+  }
+}
