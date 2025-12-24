@@ -1,0 +1,12 @@
+VIEW "CV_PROJ.CV_MOD::TESTSCORES_KANONYMITY" ("ID", "GENDER", "AGE", "WEIGHT", "HEIGHT", "LOCATION", "SCORE") AS
+SELECT "ID", "GENDER", cast("AGE" as nvarchar(255)) as "AGE", cast("WEIGHT" as nvarchar(255)) as "WEIGHT", cast("HEIGHT" as nvarchar(255)) as "HEIGHT", "LOCATION", "SCORE"
+FROM "SAPHANADB::TESTSCORES"
+WITH ANONYMIZATION(
+    ALGORITHM 'K-ANONYMITY'
+    PARAMETERS '{"k": 2, "loss": 0.1}'
+    COLUMN "ID" PARAMETERS '{"is_sequence": true}'
+    COLUMN "AGE" PARAMETERS '{"is_quasi_identifier":true, "hierarchy":{"function":"CV_PROJ.CV_MOD::AGE_HIERARCHY", "levels": 3}}'
+    COLUMN "LOCATION" PARAMETERS '{"is_quasi_identifier":true, "hierarchy":{"view":"V_HIER_GEO"}}'
+    COLUMN "WEIGHT" PARAMETERS '{"is_quasi_identifier":true,"hierarchy":{"embedded":[["43","0-60"],["45","0-60"],["54","0-60"],["57","0-60"],["60","0-60"],["62","61-90"],["65","61-90"],["67","61-90"],["76","61-90"],["79","61-90"],["81","61-90"],["89","61-90"]]}}'
+    COLUMN "HEIGHT" PARAMETERS '{"is_quasi_identifier":true,"hierarchy":{"embedded":[["145","0-150"],["150","0-150"],["151","151-170"],["154","151-170"],["167","151-170"],["175","171-190"],["176","171-190"],["177","171-190"],["180","171-190"],["181","171-190"],["186","171-190"]]}}'
+);

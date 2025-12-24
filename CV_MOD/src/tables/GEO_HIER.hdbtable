@@ -1,0 +1,4 @@
+column table "GEO_HIER" (
+    PARENT NVARCHAR(20),
+    CHILD NVARCHAR(20)
+)

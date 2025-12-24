@@ -1,0 +1,20 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "target_table": "GEO_HIER",
+            "source_data":
+            {
+                "data_type": "CSV",
+                "file_name": "city_regions.csv",
+                "has_header": true,
+                "dialect": "HANA",
+                "type_config":
+                {
+                    "delimeter": ","
+                }
+            }
+        }
+    ]
+}
+

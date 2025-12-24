@@ -1,0 +1,54 @@
+{
+    "GRANTOR_SERVICE": {
+        "object_owner": {
+            "schema_privileges": [
+                {
+                    "schema": "SAPHANADB",
+                    "privileges_with_grant_option": [
+                        "SELECT",
+                        "SELECT METADATA"
+                    ]
+                }
+            ],
+            "global_object_privileges": [
+                {
+                    "name": "HRS7040",
+                    "type": "REMOTE SOURCE",
+                    "privileges": [
+                        "CREATE VIRTUAL TABLE",
+                        "CREATE VIRTUAL FUNCTION",
+                        "CREATE REMOTE SUBSCRIPTION",
+                        "PROCESS REMOTE SUBSCRIPTION EXCEPTION",
+                        "ALTER",
+                        "DROP"
+                    ]
+                }
+            ]
+        },
+        "application_user": {
+            "schema_privileges": [
+                {
+                    "schema": "SAPHANADB",
+                    "privileges": [
+                        "SELECT",
+                        "SELECT METADATA"
+                    ]
+                }
+            ],
+            "global_object_privileges": [
+                {
+                    "name": "HRS7040",
+                    "type": "REMOTE SOURCE",
+                    "privileges": [
+                        "CREATE VIRTUAL TABLE",
+                        "CREATE VIRTUAL FUNCTION",
+                        "CREATE REMOTE SUBSCRIPTION",
+                        "PROCESS REMOTE SUBSCRIPTION EXCEPTION",
+                        "ALTER",
+                        "DROP"
+                    ]
+                }
+            ]
+        }
+    }
+}

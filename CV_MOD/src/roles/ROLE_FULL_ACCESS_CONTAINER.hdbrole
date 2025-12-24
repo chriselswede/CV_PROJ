@@ -1,0 +1,12 @@
+{
+    "role": {
+        "name": "ROLE_FULL_ACCESS_CONTAINER",
+        "schema_privileges": [
+            {
+                "privileges": [
+                    "SELECT", "SELECT METADATA", "INSERT", "UPDATE", "ALTER", "EXECUTE"
+                ]
+            }
+        ]
+    }
+}
