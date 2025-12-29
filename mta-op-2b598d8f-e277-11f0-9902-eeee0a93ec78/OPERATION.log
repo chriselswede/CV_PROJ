@@ -1,0 +1,1777 @@
+#2025 12 26 16:23:10.476#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#http-nio-0.0.0.0-8080-exec-1#
+[XS2StartProcessListener] Operation ID: 2b598d8f-e277-11f0-9902-eeee0a93ec78#
+#2025 12 26 16:23:10.507#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#http-nio-0.0.0.0-8080-exec-1#
+[XS2StartProcessListener] Process environment: {
+  "SKIP_SSL_VALIDATION" : "false",
+  "FLOWABLE_JOB_EXECUTOR_MAX_THREADS" : "128",
+  "VERSION" : "2.37.4",
+  "BASIC_AUTH_ENABLED" : "true",
+  "FLOWABLE_JOB_EXECUTOR_QUEUE_CAPACITY" : "4",
+  "FLOWABLE_JOB_EXECUTOR_CORE_THREADS" : "64"
+}#
+#2025 12 26 16:23:10.507#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#http-nio-0.0.0.0-8080-exec-1#
+[XS2StartProcessListener] Current user: cicdtechuser@gmail.com#
+#2025 12 26 16:23:10.507#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#http-nio-0.0.0.0-8080-exec-1#
+[XS2StartProcessListener] Client space: MODELSPACE#
+#2025 12 26 16:23:10.507#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#http-nio-0.0.0.0-8080-exec-1#
+[XS2StartProcessListener] Client organization: CoE EMEA HANA Platform_thiscomp#
+#2025 12 26 16:23:10.507#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#http-nio-0.0.0.0-8080-exec-1#
+[XS2StartProcessListener] Process variables: {
+  "abortOnError" : false,
+  "mtaId" : "CV_PROJ",
+  "keepFiles" : false,
+  "versionRule" : "ALL",
+  "noFailOnMissingPermissions" : false,
+  "skipAppDigestCalculation" : false,
+  "deleteServiceBrokers" : false,
+  "appArchiveId" : "8416913b-802b-4f64-9933-a3434fc805a7,6eb0ab11-c468-41a2-af6f-5c9a084a0b9b",
+  "deleteServiceKeys" : false,
+  "noRestartSubscribedApps" : false,
+  "noStart" : false,
+  "deleteServices" : false
+}#
+#2025 12 26 16:23:10.574#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11233#
+[ValidateDeployParametersStep] Executing task "validateParametersTask" of process "2b598db1-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:10.574#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11233#
+[ValidateDeployParametersStep] Validating parameters...#
+#2025 12 26 16:23:10.581#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11233#
+[ValidateDeployParametersStep] Size of mtars is 68,177,745 and size of extension descriptors is 0#
+#2025 12 26 16:23:10.581#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11233#
+[ValidateDeployParametersStep] Archive was split to: 2 parts. Total size in bytes: 68,177,745. Uploading started...#
+#2025 12 26 16:23:10.611#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#pool-10-thread-2#
+[ValidateDeployParametersStep] Opening a new input stream for file with ID: 6eb0ab11-c468-41a2-af6f-5c9a084a0b9b and name: CV_PROJ.mtar.part.0#
+#2025 12 26 16:23:11.174#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#pool-10-thread-2#
+[ValidateDeployParametersStep] Opening a new input stream for file with ID: 8416913b-802b-4f64-9933-a3434fc805a7 and name: CV_PROJ.mtar.part.1#
+#2025 12 26 16:23:11.725#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11233#
+[ValidateDeployParametersStep] Archive with ID: bbe178eb-78be-429f-9532-9ee54789139d and name: CV_PROJ.mtar was stored#
+#2025 12 26 16:23:11.725#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11233#
+[ValidateDeployParametersStep] Deploying in org "CoE EMEA HANA Platform_thiscomp" and space "MODELSPACE"#
+#2025 12 26 16:23:11.732#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11233#
+[ValidateDeployParametersStep] Parameters validated#
+#2025 12 26 16:23:11.732#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11233#
+Step "Validate Parameters" finished#
+#2025 12 26 16:23:11.785#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11234#
+[DeleteRemainingFileParts] Executing task "deleteRemainingFileParts" of process "2b598db1-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:11.839#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11234#
+Step "Delete Remaining File Parts" finished#
+#2025 12 26 16:23:11.885#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11235#
+[XS2ProcessMtaArchiveStep] Executing task "processArchiveTask" of process "2b598db1-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:11.886#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11235#
+[XS2ProcessMtaArchiveStep] Processing MTA archive...#
+#2025 12 26 16:23:11.886#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11235#
+[XS2ProcessMtaArchiveStep] MTA Archive ID: bbe178eb-78be-429f-9532-9ee54789139d#
+#2025 12 26 16:23:12.649#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11235#
+[XS2ProcessMtaArchiveStep] MTA Descriptor length: 692#
+#2025 12 26 16:23:12.649#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11235#
+[XS2ProcessMtaArchiveStep] MTA Archive Modules: [CV_MOD]#
+#2025 12 26 16:23:12.649#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11235#
+[XS2ProcessMtaArchiveStep] MTA Archive Requires: []#
+#2025 12 26 16:23:12.650#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11235#
+[XS2ProcessMtaArchiveStep] MTA Archive Resources: []#
+#2025 12 26 16:23:12.664#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11235#
+[XS2ProcessMtaArchiveStep] MTA archive processed#
+#2025 12 26 16:23:12.665#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11235#
+Step "Process Archive" finished#
+#2025 12 26 16:23:12.720#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11236#
+[ProcessMtaExtensionDescriptorsStep] Executing task "processExtensionDescriptorsTask" of process "2b598db1-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:12.722#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11236#
+[ProcessMtaExtensionDescriptorsStep] Processing MTA extension descriptors...#
+#2025 12 26 16:23:12.722#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11236#
+[ProcessMtaExtensionDescriptorsStep] Provided extension descriptors: [ ]#
+#2025 12 26 16:23:12.722#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11236#
+[ProcessMtaExtensionDescriptorsStep] No extension descriptors in use#
+#2025 12 26 16:23:12.722#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11236#
+[ProcessMtaExtensionDescriptorsStep] MTA extension descriptors processed#
+#2025 12 26 16:23:12.722#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11236#
+Step "Process Extension Descriptors" finished#
+#2025 12 26 16:23:12.774#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11237#
+[DetectMtaSchemaVersionStep] Executing task "detectSchemaVersionTask" of process "2b598db1-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:12.776#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11237#
+[DetectMtaSchemaVersionStep] Detecting MTA major schema version...#
+#2025 12 26 16:23:12.778#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11237#
+[DetectMtaSchemaVersionStep] Detected MTA schema version: "3"#
+#2025 12 26 16:23:12.784#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11237#
+Step "Detect Schema Version" finished#
+#2025 12 26 16:23:12.836#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11238#
+[MergeDescriptorsStep] Executing task "mergeDescriptorsTask" of process "2b598db1-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:12.838#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11238#
+[MergeDescriptorsStep] Validating and merging descriptors...#
+#2025 12 26 16:23:12.840#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11238#
+[MergeDescriptorsStep] Merged deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "CV_PROJ",
+  "version" : "21.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "CV_MOD",
+    "type" : "com.sap.xs.hdi",
+    "path" : "CV_MOD",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "memory" : "256M",
+      "no-route" : true,
+      "dependency-type" : "hard",
+      "buildpack" : "nodejs_buildpack",
+      "tasks" : [ {
+        "name" : "deploy",
+        "memory" : "256M",
+        "command" : "npm start"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hdi_CV_MOD",
+      "properties" : {
+        "TARGET_CONTAINER" : "~{hdi-container-name}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "cross-container-service-1",
+      "group" : "SERVICE_REPLACEMENTS",
+      "properties" : {
+        "key" : "********",
+        "service" : "~{the-service-name}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "CV_MOD",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hdi_CV_MOD",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : {
+      "hdi-container-name" : "${service-name}"
+    },
+    "parameters" : {
+      "service-plan" : "hdi-shared",
+      "type" : "managed-service",
+      "config" : {
+        "schema" : "CV_MOD"
+      },
+      "service" : "hana"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-1",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : {
+      "the-service-name" : "${service-name}"
+    },
+    "parameters" : {
+      "type" : "existing-service",
+      "service-name" : "GRANTOR_SERVICE"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : { },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2025 12 26 16:23:12.842#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11238#
+[MergeDescriptorsStep] Descriptors validated and merged#
+#2025 12 26 16:23:12.842#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11238#
+Step "Merge Descriptors" finished#
+#2025 12 26 16:23:12.893#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11239#
+[DetectDeployedMtaStep] Executing task "detectDeployedMtaTask" of process "2b598db1-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:12.895#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11239#
+[DetectDeployedMtaStep] Detecting deployed MTA...#
+#2025 12 26 16:23:12.968#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11239#
+[DetectDeployedMtaStep] Detecting MTA by id CV_PROJ and namespace null#
+#2025 12 26 16:23:12.968#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11239#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=30da70b2f36529a97508b8f4b7299676,!mta_namespace"...#
+#2025 12 26 16:23:13.039#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11239#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=30da70b2f36529a97508b8f4b7299676,!mta_namespace"...#
+#2025 12 26 16:23:13.155#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11239#
+[DetectDeployedMtaStep] Deployed MTA: {
+  "metadata" : {
+    "id" : "CV_PROJ",
+    "version" : "21.0.0"
+  },
+  "applications" : [ {
+    "name" : "CV_MOD",
+    "metadata" : {
+      "guid" : "c072141b-1299-48d0-a0a8-02a17f6fc8c4",
+      "createdAt" : [ 2023, 6, 1, 14, 36, 36 ],
+      "updatedAt" : [ 2025, 12, 26, 15, 47, 28 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "CV_PROJ",
+        "mta_module" : "{\"name\":\"CV_MOD\"}",
+        "mta_module_provided_dependencies" : "[]",
+        "mta_bound_services" : "[\"hdi_CV_MOD\"]",
+        "mta_version" : "21.0.0"
+      },
+      "labels" : {
+        "mta_id" : "30da70b2f36529a97508b8f4b7299676"
+      }
+    },
+    "state" : "STOPPED",
+    "lifecycle" : {
+      "type" : "BUILDPACK",
+      "data" : {
+        "stack" : "cflinuxfs4",
+        "buildpacks" : [ "nodejs_buildpack" ]
+      }
+    },
+    "space" : {
+      "name" : "MODELSPACE",
+      "metadata" : {
+        "guid" : "2f677575-73b7-494d-9a22-fbed9135550b",
+        "createdAt" : [ 2023, 5, 25, 19, 12, 51 ],
+        "updatedAt" : [ 2023, 5, 25, 19, 12, 51 ]
+      },
+      "organization" : {
+        "name" : "CoE EMEA HANA Platform_thiscomp",
+        "metadata" : {
+          "guid" : "f552a783-1fba-4da7-be72-8f34fa39e6ca",
+          "createdAt" : [ 2023, 5, 24, 20, 14, 2 ],
+          "updatedAt" : [ 2023, 5, 24, 20, 14, 2 ]
+        }
+      }
+    },
+    "moduleName" : "CV_MOD",
+    "boundMtaServices" : [ "hdi_CV_MOD" ],
+    "providedDependencyNames" : [ ],
+    "productizationState" : "LIVE"
+  } ],
+  "services" : [ {
+    "name" : "hdi_CV_MOD",
+    "metadata" : {
+      "guid" : "28ad0d47-9ebc-45f8-8bbf-c4f6753678be",
+      "createdAt" : [ 2025, 5, 5, 13, 55, 2 ],
+      "updatedAt" : [ 2025, 5, 5, 13, 55, 2 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "CV_PROJ",
+        "mta_resource" : "{\"name\":\"hdi_CV_MOD\"}",
+        "mta_version" : "21.0.0"
+      },
+      "labels" : {
+        "mta_id" : "30da70b2f36529a97508b8f4b7299676"
+      }
+    },
+    "label" : "hana",
+    "plan" : "hdi-shared",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "UPDATE",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "hdi_CV_MOD"
+  } ]
+}#
+#2025 12 26 16:23:13.155#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11239#
+[DetectDeployedMtaStep] Detected deployed MTA with ID "CV_PROJ" and version "21.0.0"#
+#2025 12 26 16:23:13.162#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11239#
+[DetectDeployedMtaStep] Detecting backup mta by id "CV_PROJ" and namespace "null"#
+#2025 12 26 16:23:13.163#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11239#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=30da70b2f36529a97508b8f4b7299676,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2025 12 26 16:23:13.201#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11239#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=30da70b2f36529a97508b8f4b7299676,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2025 12 26 16:23:13.261#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11239#
+[DetectDeployedMtaStep] Deployed MTA service keys: [ ]#
+#2025 12 26 16:23:13.261#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11239#
+Step "Detect Deployed MTA" finished#
+#2025 12 26 16:23:13.315#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+[XS2CollectSystemParametersStep] Executing task "collectSystemParametersTask" of process "2b598db1-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:13.317#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+[XS2CollectSystemParametersStep] Collecting system parameters...#
+#2025 12 26 16:23:13.317#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+[XS2CollectSystemParametersStep] Getting default domain...#
+#2025 12 26 16:23:13.349#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+[XS2CollectSystemParametersStep] Default domain: cfapps.eu10-004.hana.ondemand.com#
+#2025 12 26 16:23:13.349#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+[XS2CollectSystemParametersStep] Checking for overwriting read-only parameters for mta with id: "CV_PROJ"#
+#2025 12 26 16:23:13.349#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+[XS2CollectSystemParametersStep] No read-only parameters are overwritten#
+#2025 12 26 16:23:13.364#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+[XS2CollectSystemParametersStep] Descriptor with system parameters: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "CV_PROJ",
+  "version" : "21.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "CV_MOD",
+    "type" : "com.sap.xs.hdi",
+    "path" : "CV_MOD",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "CV_MOD",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod",
+      "instances" : "${default-instances}",
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "CV_MOD",
+      "default-live-domain" : "cfapps.eu10-004.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "name" : "deploy",
+        "memory" : "256M",
+        "command" : "npm start"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hdi_CV_MOD",
+      "properties" : {
+        "TARGET_CONTAINER" : "~{hdi-container-name}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "cross-container-service-1",
+      "group" : "SERVICE_REPLACEMENTS",
+      "properties" : {
+        "key" : "********",
+        "service" : "~{the-service-name}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "CV_MOD",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hdi_CV_MOD",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : {
+      "hdi-container-name" : "${service-name}"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "hdi_CV_MOD",
+      "type" : "managed-service",
+      "config" : {
+        "schema" : "CV_MOD"
+      },
+      "default-service-name" : "hdi_CV_MOD",
+      "default-container-name" : "COE_EMEA_HANA_PLATFORM_THISCOMP_MODELSPACE_HDI_CV_MOD"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-1",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : {
+      "the-service-name" : "${service-name}"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "GRANTOR_SERVICE",
+      "generated-user" : "********",
+      "default-xsappname" : "cross-container-service-1",
+      "type" : "existing-service",
+      "default-service-name" : "cross-container-service-1",
+      "default-container-name" : "COE_EMEA_HANA_PLATFORM_THISCOMP_MODELSPACE_CROSS_CONTAIN2247EA2C"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "CV_PROJ",
+    "authorization-url" : "********",
+    "org-guid" : "f552a783-1fba-4da7-be72-8f34fa39e6ca",
+    "org" : "CoE EMEA HANA Platform_thiscomp",
+    "deploy-target" : "CoE EMEA HANA Platform_thiscomp MODELSPACE",
+    "space" : "MODELSPACE",
+    "xs-api-url" : "https://api.cf.eu10-004.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.eu10-004.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.eu10-004.hana.ondemand.com",
+    "mta-version" : "21.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "2f677575-73b7-494d-9a22-fbed9135550b",
+    "user" : "********",
+    "controller-url" : "https://api.cf.eu10-004.hana.ondemand.com",
+    "timestamp" : "20251226162310"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2025 12 26 16:23:13.366#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+[XS2CollectSystemParametersStep] Version rule: ALL#
+#2025 12 26 16:23:13.367#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+[XS2CollectSystemParametersStep] Detected new MTA version: "21.0.0"#
+#2025 12 26 16:23:13.374#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+[XS2CollectSystemParametersStep] Deployed MTA version: "21.0.0"#
+#2025 12 26 16:23:13.380#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+[XS2CollectSystemParametersStep] MTA accepted for deployment#
+#2025 12 26 16:23:13.381#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+[XS2CollectSystemParametersStep] System parameters collected#
+#2025 12 26 16:23:13.381#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11240#
+Step "Collect System Parameters" finished#
+#2025 12 26 16:23:13.437#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11241#
+[ProcessDescriptorStep] Executing task "processDescriptorTask" of process "2b598db1-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:13.438#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11241#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2025 12 26 16:23:13.443#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11241#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2025 12 26 16:23:13.443#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11241#
+[ProcessDescriptorStep] MTA modules: [CV_MOD]#
+#2025 12 26 16:23:13.444#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11241#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "CV_PROJ",
+  "version" : "21.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "CV_MOD",
+    "type" : "com.sap.xs.hdi",
+    "path" : "CV_MOD",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://coe-emea-hana-platform-thiscomp-modelspace-cv-mod.cfapps.eu10-004.hana.ondemand.com",
+      "default-app-name" : "CV_MOD",
+      "generated-password" : "********",
+      "default-live-url" : "https://coe-emea-hana-platform-thiscomp-modelspace-cv-mod.cfapps.eu10-004.hana.ondemand.com",
+      "default-uri" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod.cfapps.eu10-004.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod",
+      "app-name" : "CV_MOD",
+      "default-live-uri" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod.cfapps.eu10-004.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "CV_MOD",
+      "default-live-domain" : "cfapps.eu10-004.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.eu10-004.hana.ondemand.com",
+      "host" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hdi_CV_MOD",
+      "properties" : {
+        "TARGET_CONTAINER" : "hdi_CV_MOD"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "cross-container-service-1",
+      "group" : "SERVICE_REPLACEMENTS",
+      "properties" : {
+        "key" : "********",
+        "service" : "GRANTOR_SERVICE"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "CV_MOD",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hdi_CV_MOD",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : {
+      "hdi-container-name" : "hdi_CV_MOD"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "hdi_CV_MOD",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "hdi_CV_MOD",
+      "type" : "managed-service",
+      "config" : {
+        "schema" : "CV_MOD"
+      },
+      "default-service-name" : "hdi_CV_MOD",
+      "default-container-name" : "COE_EMEA_HANA_PLATFORM_THISCOMP_MODELSPACE_HDI_CV_MOD"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-1",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : {
+      "the-service-name" : "GRANTOR_SERVICE"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "GRANTOR_SERVICE",
+      "generated-user" : "********",
+      "default-xsappname" : "cross-container-service-1",
+      "type" : "existing-service",
+      "default-service-name" : "cross-container-service-1",
+      "default-container-name" : "COE_EMEA_HANA_PLATFORM_THISCOMP_MODELSPACE_CROSS_CONTAIN2247EA2C"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "CV_PROJ",
+    "authorization-url" : "********",
+    "org-guid" : "f552a783-1fba-4da7-be72-8f34fa39e6ca",
+    "org" : "CoE EMEA HANA Platform_thiscomp",
+    "deploy-target" : "CoE EMEA HANA Platform_thiscomp MODELSPACE",
+    "region-primary-domain" : "eu10.hana.ondemand.com",
+    "space" : "MODELSPACE",
+    "region-domain" : "eu10-004.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.eu10-004.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.eu10-004.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.eu10-004.hana.ondemand.com",
+    "mta-version" : "21.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "2f677575-73b7-494d-9a22-fbed9135550b",
+    "user" : "********",
+    "controller-url" : "https://api.cf.eu10-004.hana.ondemand.com",
+    "timestamp" : "20251226162310"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2025 12 26 16:23:13.444#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11241#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2025 12 26 16:23:13.444#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11241#
+Step "Process Descriptor Step" finished#
+#2025 12 26 16:23:13.502#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+[XS2BuildCloudDeployModelStep] Executing task "buildDeployModelTask" of process "2b598db1-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:13.506#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+[XS2BuildCloudDeployModelStep] Service keys defined for content deployment grouped by service name: { }#
+#2025 12 26 16:23:13.506#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+[XS2BuildCloudDeployModelStep] Building cloud deployment model...#
+#2025 12 26 16:23:13.509#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+[XS2BuildCloudDeployModelStep] MTA archive modules: [CV_MOD]#
+#2025 12 26 16:23:13.509#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+[XS2BuildCloudDeployModelStep] Deployed modules: [CV_MOD]#
+#2025 12 26 16:23:13.511#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+[XS2BuildCloudDeployModelStep] MTA modules: [CV_MOD]#
+#2025 12 26 16:23:13.511#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+[XS2BuildCloudDeployModelStep] Service keys to create: {
+  "hdi_CV_MOD" : [ ],
+  "cross-container-service-1" : [ ]
+}#
+#2025 12 26 16:23:13.512#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+[XS2BuildCloudDeployModelStep] Modules to deploy: [{
+  "majorSchemaVersion" : 3,
+  "name" : "CV_MOD",
+  "type" : "com.sap.xs.hdi",
+  "path" : "CV_MOD",
+  "properties" : {
+    "EXIT" : 1
+  },
+  "parameters" : {
+    "default-url" : "https://coe-emea-hana-platform-thiscomp-modelspace-cv-mod.cfapps.eu10-004.hana.ondemand.com",
+    "default-app-name" : "CV_MOD",
+    "generated-password" : "********",
+    "default-live-url" : "https://coe-emea-hana-platform-thiscomp-modelspace-cv-mod.cfapps.eu10-004.hana.ondemand.com",
+    "default-uri" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod.cfapps.eu10-004.hana.ondemand.com",
+    "memory" : "256M",
+    "default-instances" : 1,
+    "no-route" : true,
+    "default-live-host" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod",
+    "instances" : 1,
+    "buildpack" : "nodejs_buildpack",
+    "default-host" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod",
+    "app-name" : "CV_MOD",
+    "default-live-uri" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod.cfapps.eu10-004.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "CV_MOD",
+    "default-live-domain" : "cfapps.eu10-004.hana.ondemand.com",
+    "dependency-type" : "hard",
+    "domain" : "cfapps.eu10-004.hana.ondemand.com",
+    "host" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod",
+    "generated-user" : "********",
+    "tasks" : [ {
+      "command" : "npm start",
+      "memory" : "256M",
+      "name" : "deploy"
+    } ],
+    "no-start" : true
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hdi_CV_MOD",
+    "properties" : {
+      "TARGET_CONTAINER" : "hdi_CV_MOD"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-1",
+    "group" : "SERVICE_REPLACEMENTS",
+    "properties" : {
+      "key" : "********",
+      "service" : "GRANTOR_SERVICE"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "CV_MOD",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "hooks" : [ ]
+}]#
+#2025 12 26 16:23:13.512#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+[XS2BuildCloudDeployModelStep] Custom domains: []#
+#2025 12 26 16:23:13.513#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+[XS2BuildCloudDeployModelStep] Calculating resource batches...#
+#2025 12 26 16:23:13.513#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+[XS2BuildCloudDeployModelStep] Calculating resource batches completed.#
+#2025 12 26 16:23:13.513#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+[XS2BuildCloudDeployModelStep] Cloud deployment model built#
+#2025 12 26 16:23:13.513#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11242#
+Step "Build Deploy Model" finished#
+#2025 12 26 16:23:13.577#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+[BuildCloudUndeployModelStep] Executing task "buildUndeployModelTask" of process "2b598db1-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:13.580#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+[BuildCloudUndeployModelStep] Building cloud undeployment model...#
+#2025 12 26 16:23:13.591#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+[BuildCloudUndeployModelStep] MTA modules: [CV_MOD]#
+#2025 12 26 16:23:13.591#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+[BuildCloudUndeployModelStep] Modules to undeploy: [ ]#
+#2025 12 26 16:23:13.591#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+[BuildCloudUndeployModelStep] Modules that won't be changed: [ ]#
+#2025 12 26 16:23:13.593#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+[BuildCloudUndeployModelStep] Subscriptions to delete: [ ]#
+#2025 12 26 16:23:13.595#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+[BuildCloudUndeployModelStep] Cloud services to delete: []#
+#2025 12 26 16:23:13.595#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+[BuildCloudUndeployModelStep] Detecting service keys to delete.#
+#2025 12 26 16:23:13.597#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+[BuildCloudUndeployModelStep] No deployed service keys detected!#
+#2025 12 26 16:23:13.597#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+[BuildCloudUndeployModelStep] Detected service keys to delete "[]"#
+#2025 12 26 16:23:13.597#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+[BuildCloudUndeployModelStep] Cloud applications to undeploy: [ ]#
+#2025 12 26 16:23:13.602#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+[BuildCloudUndeployModelStep] Cloud undeployment model built#
+#2025 12 26 16:23:13.602#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11243#
+Step "Build Undeploy Model" finished#
+#2025 12 26 16:23:13.658#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11244#
+[AddDomainsStep] Executing task "addDomainsTask" of process "2b598db1-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:13.661#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11244#
+[AddDomainsStep] Custom domains: []#
+#2025 12 26 16:23:13.661#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11244#
+Step "Add Domains" finished#
+#2025 12 26 16:23:13.848#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11246#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Executing task "prepareModulesDeploymentTask" of process "2d4fdf79-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:13.849#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11246#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Extracting services and resolving dynamic parameters from batch#
+#2025 12 26 16:23:13.850#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11246#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Services to create: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "hdi_CV_MOD",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "CV_PROJ",
+      "mta_version" : "21.0.0",
+      "mta_resource" : "{\"name\":\"hdi_CV_MOD\"}"
+    },
+    "labels" : {
+      "mta_id" : "30da70b2f36529a97508b8f4b7299676"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "hdi_CV_MOD",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+#2025 12 26 16:23:13.851#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11246#
+Step "Extract Services with Resolved Dynamic parameters from batch" finished#
+#2025 12 26 16:23:13.984#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11248#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "2d67fa8c-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:13.984#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11248#
+[CheckServiceOperationStateStep] Getting service instance "hdi_CV_MOD"...#
+#2025 12 26 16:23:14.104#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11248#
+Step "Check for service operations in Progress" finished#
+#2025 12 26 16:23:14.150#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11249#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "2d67fa8c-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:14.151#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11249#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "hdi_CV_MOD"...#
+#2025 12 26 16:23:14.158#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11249#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "hdi_CV_MOD"...#
+#2025 12 26 16:23:14.261#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11249#
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "hdi_CV_MOD",
+  "metadata" : {
+    "guid" : "28ad0d47-9ebc-45f8-8bbf-c4f6753678be",
+    "createdAt" : [ 2025, 5, 5, 13, 55, 2 ],
+    "updatedAt" : [ 2025, 5, 5, 13, 55, 2 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "CV_PROJ",
+      "mta_resource" : "{\"name\":\"hdi_CV_MOD\"}",
+      "mta_version" : "21.0.0"
+    },
+    "labels" : {
+      "mta_id" : "30da70b2f36529a97508b8f4b7299676"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "UPDATE",
+    "state" : "SUCCEEDED"
+  }
+}#
+#2025 12 26 16:23:14.261#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11249#
+[DetermineServiceCreateUpdateServiceActionsStep] Service parameters will be updated#
+#2025 12 26 16:23:14.261#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11249#
+[DetermineServiceCreateUpdateServiceActionsStep] New parameters: {
+  "schema" : "CV_MOD"
+}#
+#2025 12 26 16:23:14.261#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11249#
+Step "Determine update actions" finished#
+#2025 12 26 16:23:14.331#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11250#
+[CheckForServiceBindingOrKeyOperationStep] Executing task "CheckForServiceBindingOrKeyCreation" of process "2d67fa8c-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:14.334#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11250#
+Step "Check for service binding or key creation" finished#
+#2025 12 26 16:23:14.395#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11251#
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "2d67fa8c-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:14.398#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11251#
+[UpdateServiceParametersStep] Updating service "hdi_CV_MOD"...#
+#2025 12 26 16:23:14.405#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11251#
+[UpdateServiceParametersStep] Updating service parameters for service "hdi_CV_MOD"...#
+#2025 12 26 16:23:14.510#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11251#
+[UpdateServiceParametersStep] Service "hdi_CV_MOD" updated#
+#2025 12 26 16:23:14.510#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11251#
+[UpdateServiceParametersStep] Triggered service operations: {
+  "hdi_CV_MOD" : "UPDATE"
+}#
+#2025 12 26 16:23:14.513#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11251#
+Step "Update parameters" finished#
+#2025 12 26 16:23:28.495#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10918#
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "2d67fa8c-e277-11f0-9902-eeee0a93ec78"...#
+#2025 12 26 16:23:28.497#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10918#
+[UpdateServiceParametersStep] Polling service operations...#
+#2025 12 26 16:23:28.601#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10918#
+[UpdateServiceParametersStep] Getting service instance "hdi_CV_MOD"...#
+#2025 12 26 16:23:28.735#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10918#
+[UpdateServiceParametersStep] Last operation for service "hdi_CV_MOD": {
+  "type" : "UPDATE",
+  "state" : "SUCCEEDED"
+}#
+#2025 12 26 16:23:28.735#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10918#
+[UpdateServiceParametersStep] Service "hdi_CV_MOD" updated#
+#2025 12 26 16:23:28.735#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10918#
+[UpdateServiceParametersStep] 1 of 1 done#
+#2025 12 26 16:23:28.743#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10918#
+[UpdateServiceParametersStep] Remaining services to poll: [ ]#
+#2025 12 26 16:23:28.745#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10918#
+Step "Update parameters" finished#
+#2025 12 26 16:23:29.098#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10921#
+[PrepareModulesDeploymentStep] Executing task "prepareModulesDeploymentTask" of process "36637a47-e277-11f0-adc2-eeee0a905be8"...#
+#2025 12 26 16:23:29.100#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10921#
+[PrepareModulesDeploymentStep] Preparing modules deployment...#
+#2025 12 26 16:23:29.107#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10921#
+Step "Prepare Modules Deployment" finished#
+#2025 12 26 16:23:29.291#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10923#
+[ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "3683ad1b-e277-11f0-adc2-eeee0a905be8"...#
+#2025 12 26 16:23:29.292#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10923#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2025 12 26 16:23:29.295#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10923#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2025 12 26 16:23:29.306#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10923#
+[ProcessDescriptorStep] MTA modules: [CV_MOD]#
+#2025 12 26 16:23:29.310#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10923#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "CV_PROJ",
+  "version" : "21.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "CV_MOD",
+    "type" : "com.sap.xs.hdi",
+    "path" : "CV_MOD",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://coe-emea-hana-platform-thiscomp-modelspace-cv-mod.cfapps.eu10-004.hana.ondemand.com",
+      "default-app-name" : "CV_MOD",
+      "generated-password" : "********",
+      "default-live-url" : "https://coe-emea-hana-platform-thiscomp-modelspace-cv-mod.cfapps.eu10-004.hana.ondemand.com",
+      "default-uri" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod.cfapps.eu10-004.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod",
+      "app-name" : "CV_MOD",
+      "default-live-uri" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod.cfapps.eu10-004.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "CV_MOD",
+      "default-live-domain" : "cfapps.eu10-004.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.eu10-004.hana.ondemand.com",
+      "host" : "coe-emea-hana-platform-thiscomp-modelspace-cv-mod",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "hdi_CV_MOD",
+      "properties" : {
+        "TARGET_CONTAINER" : "hdi_CV_MOD"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "cross-container-service-1",
+      "group" : "SERVICE_REPLACEMENTS",
+      "properties" : {
+        "key" : "********",
+        "service" : "GRANTOR_SERVICE"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "CV_MOD",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "hdi_CV_MOD",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : {
+      "hdi-container-name" : "hdi_CV_MOD"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "hdi_CV_MOD",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "hdi_CV_MOD",
+      "type" : "managed-service",
+      "config" : {
+        "schema" : "CV_MOD"
+      },
+      "default-service-name" : "hdi_CV_MOD",
+      "default-container-name" : "COE_EMEA_HANA_PLATFORM_THISCOMP_MODELSPACE_HDI_CV_MOD"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "cross-container-service-1",
+    "type" : "org.cloudfoundry.existing-service",
+    "properties" : {
+      "the-service-name" : "GRANTOR_SERVICE"
+    },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "GRANTOR_SERVICE",
+      "generated-user" : "********",
+      "default-xsappname" : "cross-container-service-1",
+      "type" : "existing-service",
+      "default-service-name" : "cross-container-service-1",
+      "default-container-name" : "COE_EMEA_HANA_PLATFORM_THISCOMP_MODELSPACE_CROSS_CONTAIN2247EA2C"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "CV_PROJ",
+    "authorization-url" : "********",
+    "org-guid" : "f552a783-1fba-4da7-be72-8f34fa39e6ca",
+    "org" : "CoE EMEA HANA Platform_thiscomp",
+    "deploy-target" : "CoE EMEA HANA Platform_thiscomp MODELSPACE",
+    "region-primary-domain" : "eu10.hana.ondemand.com",
+    "space" : "MODELSPACE",
+    "region-domain" : "eu10-004.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.eu10-004.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.eu10-004.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.eu10-004.hana.ondemand.com",
+    "mta-version" : "21.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "2f677575-73b7-494d-9a22-fbed9135550b",
+    "user" : "********",
+    "controller-url" : "https://api.cf.eu10-004.hana.ondemand.com",
+    "timestamp" : "20251226162310"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2025 12 26 16:23:29.310#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10923#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2025 12 26 16:23:29.310#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10923#
+Step "Re-Process Descriptor Step" finished#
+#2025 12 26 16:23:29.356#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10924#
+[BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "3683ad1b-e277-11f0-adc2-eeee0a905be8"...#
+#2025 12 26 16:23:29.359#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10924#
+[BuildApplicationDeployModelStep] Building cloud deployment model for application "CV_MOD"...#
+#2025 12 26 16:23:29.366#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10924#
+[BuildApplicationDeployModelStep] No health-check-type is specified. Setting default type: port#
+#2025 12 26 16:23:29.367#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10924#
+[BuildApplicationDeployModelStep] Building configuration entries for org CoE EMEA HANA Platform_thiscomp, space MODELSPACE, spaceId 2f677575-73b7-494d-9a22-fbed9135550b and namespace null!#
+#2025 12 26 16:23:29.369#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10924#
+[BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+#2025 12 26 16:23:29.369#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10924#
+[BuildApplicationDeployModelStep] Cloud deployment model for application built#
+#2025 12 26 16:23:29.369#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10924#
+Step "Build Application Deploy Model" finished#
+#2025 12 26 16:23:29.420#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10925#
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "3683ad1b-e277-11f0-adc2-eeee0a905be8"...#
+#2025 12 26 16:23:29.421#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10925#
+[CreateOrUpdateAppStep] Getting application "CV_MOD"...#
+#2025 12 26 16:23:29.475#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10925#
+[CreateOrUpdateAppStep] Updating application "CV_MOD"...#
+#2025 12 26 16:23:29.486#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10925#
+[CreateOrUpdateAppStep] Getting process for application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"...#
+#2025 12 26 16:23:29.527#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10925#
+[CreateOrUpdateAppStep] Getting routes for application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"...#
+#2025 12 26 16:23:29.571#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10925#
+[CreateOrUpdateAppStep] Getting features for application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"#
+#2025 12 26 16:23:29.595#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10925#
+[CreateOrUpdateAppStep] Updating staging of application "CV_MOD" to: {
+  "isReadinessHealthCheckEnabled" : true,
+  "buildpacks" : [ "nodejs_buildpack" ],
+  "healthCheckType" : "port",
+  "appFeatures" : { }
+}#
+#2025 12 26 16:23:29.837#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10925#
+[CreateOrUpdateAppStep] Application "CV_MOD" updated#
+#2025 12 26 16:23:29.837#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10925#
+[CreateOrUpdateAppStep] Getting environment of application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"...#
+#2025 12 26 16:23:29.946#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10925#
+[CreateOrUpdateAppStep] Application "CV_MOD" updated#
+#2025 12 26 16:23:29.946#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10925#
+Step "Create App" finished#
+#2025 12 26 16:23:30.077#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10928#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "36ff942a-e277-11f0-adc2-eeee0a905be8"...#
+#2025 12 26 16:23:30.077#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10928#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "CV_MOD" and service instance "GRANTOR_SERVICE"#
+#2025 12 26 16:23:30.077#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10928#
+[CheckServiceBindingOperationStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:23:30.125#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10928#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "GRANTOR_SERVICE"...#
+#2025 12 26 16:23:30.169#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10928#
+[CheckServiceBindingOperationStep] Getting binding of service instance "f9ca7ce6-3c97-415d-90a5-084d46a44d26" with application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"...#
+#2025 12 26 16:23:30.207#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10928#
+[CheckServiceBindingOperationStep] Service binding operation "f03a246f-6e45-4fc3-96f4-d9a04f7da45e" with type "create" is in state "succeeded"#
+#2025 12 26 16:23:30.207#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10928#
+Step "Check For Service Binding Operation In Progress" finished#
+#2025 12 26 16:23:30.250#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10929#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "36ff942a-e277-11f0-adc2-eeee0a905be8"...#
+#2025 12 26 16:23:30.253#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10929#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "CV_MOD" to service instance "GRANTOR_SERVICE"#
+#2025 12 26 16:23:30.253#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10929#
+[DetermineApplicationServiceBindingActionsStep] Getting application "CV_MOD"...#
+#2025 12 26 16:23:30.306#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10929#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "CV_MOD": { }#
+#2025 12 26 16:23:30.352#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10929#
+[DetermineApplicationServiceBindingActionsStep] Check should rebind application "CV_MOD" and service instance "GRANTOR_SERVICE"#
+#2025 12 26 16:23:30.352#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10929#
+[DetermineApplicationServiceBindingActionsStep] Getting GUID of required service instance "GRANTOR_SERVICE"...#
+#2025 12 26 16:23:30.401#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10929#
+[DetermineApplicationServiceBindingActionsStep] Getting binding of service instance "f9ca7ce6-3c97-415d-90a5-084d46a44d26" with application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"...#
+#2025 12 26 16:23:30.445#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10929#
+[DetermineApplicationServiceBindingActionsStep] Getting parameters of service binding "f03a246f-6e45-4fc3-96f4-d9a04f7da45e"...#
+#2025 12 26 16:23:30.474#Z#WARN#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10929#
+[DetermineApplicationServiceBindingActionsStep] Cannot retrieve parameters of binding between application "CV_MOD" and service instance "GRANTOR_SERVICE"#
+#2025 12 26 16:23:30.476#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10929#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "CV_MOD" and service instance "GRANTOR_SERVICE": unbind - true bind - true#
+#2025 12 26 16:23:30.476#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10929#
+Step "Determine Application Service Binding Actions" finished#
+#2025 12 26 16:23:30.528#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10930#
+[UnbindServiceFromApplicationStep] Executing task "unbindServiceFromApplicationTask" of process "36ff942a-e277-11f0-adc2-eeee0a905be8"...#
+#2025 12 26 16:23:30.532#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10930#
+[UnbindServiceFromApplicationStep] Unbinding service instance "GRANTOR_SERVICE" from application "CV_MOD"...#
+#2025 12 26 16:23:30.539#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10930#
+[UnbindServiceFromApplicationStep] Unbinding application "CV_MOD" from service instance "GRANTOR_SERVICE"...#
+#2025 12 26 16:23:30.776#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10930#
+[UnbindServiceFromApplicationStep] Unbinding service instance "GRANTOR_SERVICE" from application "CV_MOD" finished#
+#2025 12 26 16:23:30.776#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10930#
+Step "Unbind Service from Application" finished#
+#2025 12 26 16:23:30.581#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8885#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "374b69e9-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:23:30.582#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8885#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "CV_MOD" and service instance "hdi_CV_MOD"#
+#2025 12 26 16:23:30.683#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8885#
+[CheckServiceBindingOperationStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:23:30.751#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8885#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "hdi_CV_MOD"...#
+#2025 12 26 16:23:30.801#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8885#
+[CheckServiceBindingOperationStep] Getting binding of service instance "28ad0d47-9ebc-45f8-8bbf-c4f6753678be" with application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"...#
+#2025 12 26 16:23:30.859#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8885#
+[CheckServiceBindingOperationStep] Service binding operation "9645b6f6-784a-4b18-96fe-3d5ec4496112" with type "create" is in state "succeeded"#
+#2025 12 26 16:23:30.859#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8885#
+Step "Check For Service Binding Operation In Progress" finished#
+#2025 12 26 16:23:30.829#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10931#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "36ff942a-e277-11f0-adc2-eeee0a905be8"...#
+#2025 12 26 16:23:30.832#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10931#
+[BindServiceToApplicationStep] Binding service instance "GRANTOR_SERVICE" to application "CV_MOD"...#
+#2025 12 26 16:23:30.840#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10931#
+[BindServiceToApplicationStep] Binding service instance "GRANTOR_SERVICE" to application "CV_MOD" with parameters: { }#
+#2025 12 26 16:23:30.995#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10931#
+[BindServiceToApplicationStep] Binding service instance "GRANTOR_SERVICE" to application "CV_MOD" finished#
+#2025 12 26 16:23:30.995#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10931#
+Step "Bind Service to Application" finished#
+#2025 12 26 16:23:30.911#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8886#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "374b69e9-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:23:30.913#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8886#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "CV_MOD" to service instance "hdi_CV_MOD"#
+#2025 12 26 16:23:30.913#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8886#
+[DetermineApplicationServiceBindingActionsStep] Getting application "CV_MOD"...#
+#2025 12 26 16:23:30.969#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8886#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "CV_MOD": { }#
+#2025 12 26 16:23:31.012#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8886#
+[DetermineApplicationServiceBindingActionsStep] Check should rebind application "CV_MOD" and service instance "hdi_CV_MOD"#
+#2025 12 26 16:23:31.012#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8886#
+[DetermineApplicationServiceBindingActionsStep] Getting GUID of required service instance "hdi_CV_MOD"...#
+#2025 12 26 16:23:31.069#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8886#
+[DetermineApplicationServiceBindingActionsStep] Getting binding of service instance "28ad0d47-9ebc-45f8-8bbf-c4f6753678be" with application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"...#
+#2025 12 26 16:23:31.110#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8886#
+[DetermineApplicationServiceBindingActionsStep] Getting parameters of service binding "9645b6f6-784a-4b18-96fe-3d5ec4496112"...#
+#2025 12 26 16:23:31.508#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8886#
+[DetermineApplicationServiceBindingActionsStep] Service instance "hdi_CV_MOD" will not be rebound to application "CV_MOD" because the binding parameters are not modified#
+#2025 12 26 16:23:31.519#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8886#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "CV_MOD" and service instance "hdi_CV_MOD": unbind - false bind - false#
+#2025 12 26 16:23:31.519#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8886#
+Step "Determine Application Service Binding Actions" finished#
+#2025 12 26 16:23:31.725#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8888#
+[DetermineVcapServicesPropertiesChangedStep] Executing task "determineVcapServicesPropertiesChangedTask" of process "37f7af93-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:23:31.729#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8888#
+[DetermineVcapServicesPropertiesChangedStep] VCAP_SERVICES properties for application "CV_MOD" changed: true#
+#2025 12 26 16:23:31.729#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8888#
+Step "Determine vcap services properties changed" finished#
+#2025 12 26 16:23:31.783#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8889#
+[UploadAppStep] Executing task "uploadAppTask" of process "37f7af93-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:23:31.785#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8889#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2025 12 26 16:23:31.785#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8889#
+[UploadAppStep] Uploading application "CV_MOD"...#
+#2025 12 26 16:23:31.792#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8889#
+[UploadAppStep] Getting application "CV_MOD"...#
+#2025 12 26 16:23:31.842#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8889#
+[UploadAppStep] Getting environment of application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"...#
+#2025 12 26 16:23:31.879#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8889#
+[UploadAppStep] Calculating application digest: "CV_MOD"#
+#2025 12 26 16:23:32.797#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8889#
+Step "Upload App" finished#
+#2025 12 26 16:23:38.562#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7994#
+[UploadAppStep] Executing task "uploadAppTask" of process "37f7af93-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:23:38.564#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7994#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2025 12 26 16:23:38.669#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#pool-20-thread-6#
+[UploadAppStep] Upload of application: CV_MOD started on instance: 4#
+#2025 12 26 16:23:38.669#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#pool-20-thread-6#
+[UploadAppStep] Uploading file "CV_MOD/data.zip" for application "CV_MOD"#
+#2025 12 26 16:23:41.626#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#pool-20-thread-6#
+[UploadAppStep] Time elapsed for app binary download: 2,957 in millis#
+#2025 12 26 16:23:41.627#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#pool-20-thread-6#
+[UploadAppStep] Size of app CV_MOD is 68,661,956 bytes#
+#2025 12 26 16:23:41.627#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#pool-20-thread-6#
+[UploadAppStep] Asynchronously uploading binaries for application "CV_MOD"...#
+#2025 12 26 16:23:45.975#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#pool-20-thread-6#
+[UploadAppStep] Started async upload of application "CV_MOD"#
+#2025 12 26 16:23:45.989#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7994#
+[UploadAppStep] Time elapsed for upload: 7,424 in millis#
+#2025 12 26 16:23:45.989#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7994#
+[UploadAppStep] Getting application "CV_MOD"...#
+#2025 12 26 16:23:46.012#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#App upload monitor: e4e06ed6-7d88-4e63-b1aa-a387b8bee21b#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2025 12 26 16:23:46.032#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7994#
+[UploadAppStep] Getting environment of application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"...#
+#2025 12 26 16:23:46.078#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7994#
+[UploadAppStep] Updating environment of application "CV_MOD"#
+#2025 12 26 16:23:46.193#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7994#
+Step "Upload App" finished#
+#2025 12 26 16:23:51.043#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#App upload monitor: e4e06ed6-7d88-4e63-b1aa-a387b8bee21b#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2025 12 26 16:23:56.071#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#App upload monitor: e4e06ed6-7d88-4e63-b1aa-a387b8bee21b#
+[UploadAppStep] Upload status: READY#
+#2025 12 26 16:23:58.634#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10995#
+[UploadAppStep] Executing task "uploadAppTask" of process "37f7af93-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:23:58.636#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10995#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2025 12 26 16:23:58.636#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10995#
+[UploadAppStep] Checking upload status of application "CV_MOD"...#
+#2025 12 26 16:23:58.636#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10995#
+[UploadAppStep] Getting package "e4e06ed6-7d88-4e63-b1aa-a387b8bee21b"...#
+#2025 12 26 16:23:58.675#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10995#
+[UploadAppStep] Application "CV_MOD" uploaded#
+#2025 12 26 16:23:58.677#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10995#
+Step "Upload App" finished#
+#2025 12 26 16:23:58.731#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10996#
+[ScaleAppStep] Executing task "scaleAppTask" of process "37f7af93-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:23:58.734#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10996#
+[ScaleAppStep] Scaling application "CV_MOD"...#
+#2025 12 26 16:23:58.734#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10996#
+[ScaleAppStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:23:58.785#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10996#
+[ScaleAppStep] Getting process for application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"...#
+#2025 12 26 16:23:58.829#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10996#
+[ScaleAppStep] Application "CV_MOD" scaled#
+#2025 12 26 16:23:58.829#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10996#
+Step "Scale App" finished#
+#2025 12 26 16:23:59.060#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10997#
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "37f7af93-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:23:59.062#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10997#
+[DetermineDesiredStateAchievingActionsStep] Getting application "CV_MOD"...#
+#2025 12 26 16:23:59.110#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10997#
+[DetermineDesiredStateAchievingActionsStep] Getting instances for application "CV_MOD"...#
+#2025 12 26 16:23:59.110#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10997#
+[DetermineDesiredStateAchievingActionsStep] Getting environment of application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"...#
+#2025 12 26 16:23:59.153#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10997#
+[DetermineDesiredStateAchievingActionsStep] Current state of application CV_MOD: STOPPED#
+#2025 12 26 16:23:59.153#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10997#
+[DetermineDesiredStateAchievingActionsStep] Desired state of application CV_MOD: STOPPED#
+#2025 12 26 16:23:59.153#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10997#
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application CV_MOD: [STAGE]#
+#2025 12 26 16:23:59.153#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10997#
+Step "Determine Desired State Achieving Actions" finished#
+#2025 12 26 16:23:59.205#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10998#
+[StageAppStep] Executing task "stageAppTask" of process "37f7af93-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:23:59.207#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10998#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2025 12 26 16:23:59.208#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10998#
+[StageAppStep] Staging application "CV_MOD"...#
+#2025 12 26 16:23:59.214#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10998#
+[StageAppStep] Creating build for package "e4e06ed6-7d88-4e63-b1aa-a387b8bee21b"...#
+#2025 12 26 16:23:59.561#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-10998#
+Step "Stage App" finished#
+#2025 12 26 16:24:08.713#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7774#
+[StageAppStep] Executing task "stageAppTask" of process "37f7af93-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:24:08.716#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7774#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2025 12 26 16:24:08.790#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7774#
+[StageAppStep] Checking status of application "CV_MOD"...#
+#2025 12 26 16:24:08.790#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7774#
+[StageAppStep] Getting build "7daf6d97-db48-47f2-b5fc-382a7bcde174"...#
+#2025 12 26 16:24:08.854#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7774#
+[StageAppStep] Staging status of application "CV_MOD": PENDING#
+#2025 12 26 16:24:08.856#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7774#
+[StageAppStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:24:08.974#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-7774#
+Step "Stage App" finished#
+#2025 12 26 16:24:18.726#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11299#
+[StageAppStep] Executing task "stageAppTask" of process "37f7af93-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:24:18.729#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11299#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2025 12 26 16:24:18.729#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11299#
+[StageAppStep] Checking status of application "CV_MOD"...#
+#2025 12 26 16:24:18.729#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11299#
+[StageAppStep] Getting build "7daf6d97-db48-47f2-b5fc-382a7bcde174"...#
+#2025 12 26 16:24:18.767#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11299#
+[StageAppStep] Staging status of application "CV_MOD": PENDING#
+#2025 12 26 16:24:18.769#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11299#
+[StageAppStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:24:18.885#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11299#
+Step "Stage App" finished#
+#2025 12 26 16:24:28.774#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11041#
+[StageAppStep] Executing task "stageAppTask" of process "37f7af93-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:24:28.776#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11041#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2025 12 26 16:24:28.776#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11041#
+[StageAppStep] Checking status of application "CV_MOD"...#
+#2025 12 26 16:24:28.776#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11041#
+[StageAppStep] Getting build "7daf6d97-db48-47f2-b5fc-382a7bcde174"...#
+#2025 12 26 16:24:28.812#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11041#
+[StageAppStep] Staging status of application "CV_MOD": PENDING#
+#2025 12 26 16:24:28.814#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11041#
+[StageAppStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:24:28.949#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11041#
+Step "Stage App" finished#
+#2025 12 26 16:24:38.836#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8924#
+[StageAppStep] Executing task "stageAppTask" of process "37f7af93-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:24:38.839#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8924#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2025 12 26 16:24:38.839#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8924#
+[StageAppStep] Checking status of application "CV_MOD"...#
+#2025 12 26 16:24:38.839#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8924#
+[StageAppStep] Getting build "7daf6d97-db48-47f2-b5fc-382a7bcde174"...#
+#2025 12 26 16:24:38.881#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8924#
+[StageAppStep] Staging status of application "CV_MOD": STAGED#
+#2025 12 26 16:24:38.883#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8924#
+[StageAppStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:24:39.019#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8924#
+[StageAppStep] Getting build "7daf6d97-db48-47f2-b5fc-382a7bcde174"...#
+#2025 12 26 16:24:39.076#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8924#
+[StageAppStep] Binding droplet "f992ef59-5142-4505-9b2e-65625e7f6b27" to application "c072141b-1299-48d0-a0a8-02a17f6fc8c4"...#
+#2025 12 26 16:24:39.137#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8924#
+[StageAppStep] Application "CV_MOD" staged#
+#2025 12 26 16:24:39.148#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8924#
+Step "Stage App" finished#
+#2025 12 26 16:24:39.291#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8931#
+[PrepareToExecuteTasksStep] Executing task "prepareToExecuteTasksTask" of process "60407d38-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:24:39.294#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8931#
+Step "Prepare To Execute Tasks" finished#
+#2025 12 26 16:24:39.362#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8932#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "60407d38-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:24:39.364#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8932#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2025 12 26 16:24:39.366#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8932#
+[ExecuteTaskStep] Executing task "deploy" on application "CV_MOD"...#
+#2025 12 26 16:24:39.373#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8932#
+[ExecuteTaskStep] Running task on application "CV_MOD": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2025 12 26 16:24:39.669#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8932#
+Step "Execute Task" finished#
+#2025 12 26 16:24:48.879#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12050#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "60407d38-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:24:48.881#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12050#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2025 12 26 16:24:48.965#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12050#
+[ExecuteTaskStep] Getting task "869fa0c1-b11a-4a6c-af2b-8ff09e15849b"...#
+#2025 12 26 16:24:49.021#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12050#
+[ExecuteTaskStep] Task execution status: failed#
+#2025 12 26 16:24:49.023#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12050#
+[ExecuteTaskStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:24:49.130#Z#ERROR#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12050#
+[ExecuteTaskStep] Execution of task "deploy" on application "CV_MOD" failed.
+Download the application logs via the dmol command and check them for more information.#
+#2025 12 26 16:24:49.138#Z#ERROR#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12050#
+Exception caught#
+org.cloudfoundry.multiapps.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:76)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:64)
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:64)
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:177)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:298)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:175)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88)
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:198)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:189)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:128)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:80)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.handleTransactionalJob(ExecuteAsyncRunnable.java:177)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:146)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.runInternally(ExecuteAsyncRunnable.java:122)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:96)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+#2025 12 26 16:24:49.148#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12050#
+Step "Execute Task" finished#
+#2025 12 26 16:24:52.349#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8579#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "60407d38-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:24:52.352#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8579#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2025 12 26 16:24:52.437#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8579#
+[ExecuteTaskStep] Executing task "deploy" on application "CV_MOD"...#
+#2025 12 26 16:24:52.447#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8579#
+[ExecuteTaskStep] Running task on application "CV_MOD": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2025 12 26 16:24:52.771#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8579#
+Step "Execute Task" finished#
+#2025 12 26 16:24:58.996#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11047#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "60407d38-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:24:58.997#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11047#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2025 12 26 16:24:58.999#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11047#
+[ExecuteTaskStep] Getting task "cef0ded9-f602-4305-8f06-bfd816b35160"...#
+#2025 12 26 16:24:59.051#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11047#
+[ExecuteTaskStep] Task execution status: running#
+#2025 12 26 16:24:59.052#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11047#
+[ExecuteTaskStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:24:59.188#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11047#
+Step "Execute Task" finished#
+#2025 12 26 16:25:09.041#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12056#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "60407d38-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:25:09.043#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12056#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2025 12 26 16:25:09.130#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12056#
+[ExecuteTaskStep] Getting task "cef0ded9-f602-4305-8f06-bfd816b35160"...#
+#2025 12 26 16:25:09.180#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12056#
+[ExecuteTaskStep] Task execution status: failed#
+#2025 12 26 16:25:09.182#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12056#
+[ExecuteTaskStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:25:09.324#Z#ERROR#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12056#
+[ExecuteTaskStep] Execution of task "deploy" on application "CV_MOD" failed.
+Download the application logs via the dmol command and check them for more information.#
+#2025 12 26 16:25:09.333#Z#ERROR#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12056#
+Exception caught#
+org.cloudfoundry.multiapps.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:76)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:64)
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:64)
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:177)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:298)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:175)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88)
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:198)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:189)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:128)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:80)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.handleTransactionalJob(ExecuteAsyncRunnable.java:177)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:146)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.runInternally(ExecuteAsyncRunnable.java:122)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:96)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+#2025 12 26 16:25:09.344#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-12056#
+Step "Execute Task" finished#
+#2025 12 26 16:25:10.892#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8600#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "60407d38-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:25:10.895#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8600#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2025 12 26 16:25:10.900#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8600#
+[ExecuteTaskStep] Executing task "deploy" on application "CV_MOD"...#
+#2025 12 26 16:25:10.909#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8600#
+[ExecuteTaskStep] Running task on application "CV_MOD": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2025 12 26 16:25:11.198#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8600#
+Step "Execute Task" finished#
+#2025 12 26 16:25:19.085#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11328#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "60407d38-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:25:19.087#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11328#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2025 12 26 16:25:19.088#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11328#
+[ExecuteTaskStep] Getting task "228989c1-83aa-42dc-9824-6968ee6e192b"...#
+#2025 12 26 16:25:19.128#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11328#
+[ExecuteTaskStep] Task execution status: running#
+#2025 12 26 16:25:19.129#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11328#
+[ExecuteTaskStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:25:19.287#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11328#
+Step "Execute Task" finished#
+#2025 12 26 16:25:29.135#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11332#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "60407d38-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:25:29.137#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11332#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2025 12 26 16:25:29.138#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11332#
+[ExecuteTaskStep] Getting task "228989c1-83aa-42dc-9824-6968ee6e192b"...#
+#2025 12 26 16:25:29.179#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11332#
+[ExecuteTaskStep] Task execution status: failed#
+#2025 12 26 16:25:29.181#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11332#
+[ExecuteTaskStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:25:29.327#Z#ERROR#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11332#
+[ExecuteTaskStep] Execution of task "deploy" on application "CV_MOD" failed.
+Download the application logs via the dmol command and check them for more information.#
+#2025 12 26 16:25:29.336#Z#ERROR#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11332#
+Exception caught#
+org.cloudfoundry.multiapps.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:76)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:64)
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:64)
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:177)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:298)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:175)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88)
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:198)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:189)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:128)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:80)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.handleTransactionalJob(ExecuteAsyncRunnable.java:177)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:146)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.runInternally(ExecuteAsyncRunnable.java:122)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:96)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+#2025 12 26 16:25:29.347#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-11332#
+Step "Execute Task" finished#
+#2025 12 26 16:25:32.557#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8607#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "60407d38-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:25:32.559#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8607#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2025 12 26 16:25:32.564#Z#INFO#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8607#
+[ExecuteTaskStep] Executing task "deploy" on application "CV_MOD"...#
+#2025 12 26 16:25:32.572#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8607#
+[ExecuteTaskStep] Running task on application "CV_MOD": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2025 12 26 16:25:33.020#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8607#
+Step "Execute Task" finished#
+#2025 12 26 16:25:39.253#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8995#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "60407d38-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:25:39.255#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8995#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2025 12 26 16:25:39.257#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8995#
+[ExecuteTaskStep] Getting task "206b7e98-e1de-43d1-b4e6-ba10dbe24843"...#
+#2025 12 26 16:25:39.296#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8995#
+[ExecuteTaskStep] Task execution status: running#
+#2025 12 26 16:25:39.298#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8995#
+[ExecuteTaskStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:25:39.432#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-8995#
+Step "Execute Task" finished#
+#2025 12 26 16:25:49.307#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-9435#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "60407d38-e277-11f0-ae1a-eeee0a94b5d7"...#
+#2025 12 26 16:25:49.309#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-9435#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2025 12 26 16:25:49.405#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-9435#
+[ExecuteTaskStep] Getting task "206b7e98-e1de-43d1-b4e6-ba10dbe24843"...#
+#2025 12 26 16:25:49.457#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-9435#
+[ExecuteTaskStep] Task execution status: failed#
+#2025 12 26 16:25:49.458#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-9435#
+[ExecuteTaskStep] Getting application guid "CV_MOD"...#
+#2025 12 26 16:25:49.591#Z#ERROR#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-9435#
+[ExecuteTaskStep] Execution of task "deploy" on application "CV_MOD" failed.
+Download the application logs via the dmol command and check them for more information.#
+#2025 12 26 16:25:49.602#Z#ERROR#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-9435#
+Exception caught#
+org.cloudfoundry.multiapps.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:76)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:64)
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:64)
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:177)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:298)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:175)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88)
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:198)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:189)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:128)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:80)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.handleTransactionalJob(ExecuteAsyncRunnable.java:177)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:146)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.runInternally(ExecuteAsyncRunnable.java:122)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:96)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+#2025 12 26 16:25:49.614#Z#DEBUG#2b598d8f-e277-11f0-9902-eeee0a93ec78.OPERATION#flowable-async-job-executor-thread-9435#
+Step "Execute Task" finished#
